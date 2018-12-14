@@ -41,12 +41,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractFactory.cs" />
+    <Compile Include="Common.cs" />
     <Compile Include="FactoryModel.cs" />
     <Compile Include="IMessageInfo.cs" />
     <Compile Include="MailClass.cs" />
+    <Compile Include="MailfactoryClass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SMSClass.cs" />
+    <Compile Include="SMSFactoryClass.cs" />
+    <Compile Include="WXClass.cs" />
+    <Compile Include="WXFactoryClass.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
